@@ -1,0 +1,44 @@
+body {
+    background-color: var(--cream);
+    font-family: var(--radiocanada);
+    font-size: 1.2rem;
+}
+
+.display_con {
+    max-width: 1440px;
+}
+
+
+.display_con table {
+    padding: 2rem;
+    background: #F7ECDE;
+    margin: 3rem auto;
+    width: 100%;
+    max-width: 1200px;
+    overflow: hidden;
+    box-shadow: 2px 3px 5px -2px var(--light-blue);
+}
+
+.display_con th {
+    font-weight: 700;
+}
+
+.display_con th,
+td {
+    padding: 0.5rem 0;
+    background: #FBF8F1;
+
+}
+
+.display_con thead th {
+    background-color: #E9DAC1;
+}
+
+.display_con table th {
+    padding-left: 1.5rem;
+    text-align: left;
+}
+
+.display_con tbody td:hover {
+    background-color: #F7ECDE;
+}

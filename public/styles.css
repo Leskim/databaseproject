@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --oleoscript: 'Oleo Script', cursive;
+    /* two 400 and 700 for headings */
+    --bangers: 'Bangers', cursive;
+    /* headings capitalized */
+    --radiocanada: 'Radio Canada', sans-serif;
+    /* texts */
+
+
+    /* Donor Font */
+    --quintsssential: 'Quintessential', cursive;
+    /* Fonts */
+    /* colors */
+    --blue: #4B7BE5;
+    --red: #FF1818;
+    --orange: #EE5007;
+    --white: #fff;
+
+
+    /* Donor Color */
+    --cream: rgb(245, 245, 245);
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.cont {
+    text-align: center;
+}
+
+h1 {
+    font-family: var(--bangers);
+    font-size: 5rem !important;
+    letter-spacing: .3rem;
+}
+
+.don {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+.don span {
+    color: var(--red);
+}
+
+.rec {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.rec span {
+    color: #85F4FF;
+}
+
+.don a,
+.rec a {
+    color: #fff;
+    font-family: var(--oleoscript);
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 3rem;
+    text-decoration: none;
+    border-radius: 6rem;
+    padding: .5rem 2rem;
+    background: var(--blue);
+}
+
+.don a:hover,
+.rec a:hover {
+    background: var(--orange);
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+    opacity: .8;
+}
+
+.donationimages {
+    /* width: 120%; */
+    /* margin: 0 auto; */
+}
+
+
+/* Blood Available after recepient registers */
+.availabledonors {
+    text-align: center;
+    padding: 2.5rem 0;
+}
